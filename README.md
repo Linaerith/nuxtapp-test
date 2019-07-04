@@ -2,7 +2,8 @@
 
 > Nuxt.js project
 
-Project made for me to learn about VueJS and NuxtJS.
+Project made for me to learn about VueJS and NuxtJS. 🏋‍
+Made with cute bears to get motivated. 🐣
 
 ## Build Setup
 
