@@ -1,22 +1,13 @@
 <template>
   <div>
-    <Head/>
+      <h3>Blog Section</h3>
     <nuxt/>
   </div>
 </template>
 
-<script>
-import Head from '~/components/Head.vue';
-export default{
-  components: {
-    Head
-  }
-}
-</script>
-
 <style>
 html {
-  font-family: "DM Serif Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -24,7 +15,6 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-color: #FFE4E1;
 }
 
 *, *:before, *:after {

@@ -2,6 +2,8 @@
 
 > Nuxt.js project
 
+Project made for me to learn about VueJS and NuxtJS.
+
 ## Build Setup
 
 ``` bash
@@ -20,4 +22,3 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
