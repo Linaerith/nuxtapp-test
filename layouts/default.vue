@@ -1,15 +1,23 @@
 <template>
   <div>
-    <Head/>
+    <Head @sidenavToggle= "display = !display"/>
+    <SideNav :show="display"/>
     <nuxt/>
   </div>
 </template>
 
 <script>
 import Head from '~/components/Head.vue';
+import SideNav from "~/components/Sidenav.vue";
 export default{
   components: {
-    Head
+    Head,
+    SideNav
+  },
+  data(){
+    return{
+      display: false
+    }
   }
 }
 </script>
@@ -32,32 +40,5 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
 </style>

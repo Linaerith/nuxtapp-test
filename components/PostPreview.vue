@@ -43,6 +43,7 @@ export default{
   box-shadow: 0 2px 2px #ccc;
   background-color: white;
   width: 90%;
+  height:100%;
 }
 a {
   text-decoration: none;
@@ -64,6 +65,7 @@ a {
 .post-content {
   padding: 10px;
   text-align: center;
+  max-width: 100%;
 }
 a:hover .post-content,
 a:active .post-content {
